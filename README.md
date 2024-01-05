@@ -5,6 +5,8 @@ These questions cover a wide range of topics related to network architecture and
 Answer: In this scenario, I would design a VPC architecture in the following way. I would create 2 subnets: public and private. The public subnet would contain the load balancers and be accessible from the internet. The private subnet would host the application servers. I would distribute the subnets across multiple Availability Zones for high availability. Additionally, I would configure auto scaling groups for the application servers.
 
 ### Question 2: Your organization has a VPC with multiple subnets. You want to restrict outbound internet access for resources in one subnet, but allow outbound internet access for resources in another subnet. How would you achieve this?
+Answer Using NACLs We can Achieve this
+
 
 ### Question 3: You have a VPC with a public subnet and a private subnet. Instances in the private subnet need to access the internet for software updates. How would you allow internet access for instances in the private subnet?
 Answer: To allow internet access for instances in the private subnet, we can use a NAT Gateway or a NAT instance. We would place the NAT Gateway/instance in the public subnet and configure the private subnet route table to send outbound traffic to the NAT Gateway/instance. This way, instances in the private subnet can access the internet through the NAT Gateway/instance.
