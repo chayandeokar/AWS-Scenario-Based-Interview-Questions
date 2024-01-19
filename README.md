@@ -1,5 +1,5 @@
 # AWS-Scenario-Based-Interview-Questions on EC2, IAM and VPC
-These questions cover a wide range of topics related to network architecture and security on AWS.
+These questions cover a wide range of topics related to network architecture and security on AWS. and EC2
 
 ### Question 1: You have been assigned to design a VPC architecture for a 2-tier application. The application needs to be highly available and scalable. How would you design the VPC architecture?
 Answer: In this scenario, I would design a VPC architecture in the following way. I would create 2 subnets: public and private. The public subnet would contain the load balancers and be accessible from the internet. The private subnet would host the application servers. I would distribute the subnets across multiple Availability Zones for high availability. Additionally, I would configure auto scaling groups for the application servers.
