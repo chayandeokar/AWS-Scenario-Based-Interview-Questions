@@ -1,0 +1,58 @@
+1.) Creating an EKS Cluster in Production Environment:
+-- To create an Amazon EKS (Elastic Kubernetes Service) cluster in a production environment, you would typically follow these steps:
+-- Set up an AWS account if you haven't already.
+-- Configure AWS CLI or SDK to interact with AWS services.
+-- Use AWS CloudFormation or Terraform to provision necessary resources like VPC, subnets, IAM roles, etc.
+-- Use the AWS Management Console or CLI to create the EKS cluster.
+-- Configure Kubernetes tools like kubectl to interact with the EKS cluster.
+-- Deploy your applications to the cluster.
+
+
+2.) What is SonarQube and How Does it Analyze Code?:
+-- SonarQube is an open-source platform for continuous inspection of code quality. It performs static code analysis to detect bugs, code smells, security vulnerabilities, and code duplications. 
+It supports various programming languages. SonarQube operates by scanning the source code, applying a set of predefined rules, and generating reports detailing issues found, their severity, and suggestions for improvement.
+
+3.) Writing a Terraform File:
+-- Sure, here's a simple example of a Terraform file to create an AWS S3 bucket:
+
+hcl
+Copy code
+provider "aws" {
+  region = "us-west-2"
+}
+
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = "my-unique-bucket-name"
+  acl    = "private"
+}
+
+
+4.) GitHub Hook:
+-- GitHub hook, also known as Webhook, is a mechanism provided by GitHub to trigger actions or events in external systems when certain events occur on a GitHub repository.
+These events could include pushing code, creating issues, pull requests, etc. GitHub sends a POST request to a configured URL when the specified event occurs, allowing integration with 
+external services like CI/CD pipelines, issue trackers, and more.
+
+5.) What is Docker?:
+-- Docker is a platform and tool that simplifies the process of creating, deploying, and running applications using containers. 
+Containers provide a lightweight, portable, and consistent environment for applications to run, isolating them from the underlying system and dependencies. 
+Docker allows developers to package their applications along with all dependencies into a container image, which can then be deployed and run on any system that supports Docker.
+
+6.) Artifact Storage Tools:
+Some commonly used artifact storage tools include:
+-- AWS S3
+-- Nexus Repository
+-- JFrog Artifactory
+-- GitHub Packages
+-- Docker Hub
+
+7.) Creating a Cluster in AWS Console or Production:
+Creating a cluster in the AWS console is usually done for testing or development purposes. For production environments, it's recommended to use infrastructure as code tools
+like Terraform or AWS CloudFormation to ensure repeatability, versioning, and automation of the deployment process.
+
+8.) Minikube:
+-- Minikube is a tool that enables you to run Kubernetes locally on your machine. It's primarily used for development and testing purposes, allowing developers to create and interact with Kubernetes clusters on their local workstations.
+
+9.) Configuring YAML Scripts in a Project:
+-- YAML scripts are commonly used for configuration in various projects, particularly in infrastructure as code (IaC) or Kubernetes deployments. These scripts define the desired state of the system or application.
+The configuration typically includes parameters, settings, and resources needed for the application or infrastructure. To configure YAML scripts, you would typically edit the YAML files directly, specifying the
+required configurations such as container definitions, environment variables, volumes, etc., according to the requirements of your project or application.
