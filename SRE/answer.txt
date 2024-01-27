@@ -9,8 +9,7 @@
 
 
 2.) What is SonarQube and How Does it Analyze Code?:
--- SonarQube is an open-source platform for continuous inspection of code quality. It performs static code analysis to detect bugs, code smells, security vulnerabilities, and code duplications. 
-It supports various programming languages. SonarQube operates by scanning the source code, applying a set of predefined rules, and generating reports detailing issues found, their severity, and suggestions for improvement.
+-- SonarQube is an open-source platform for continuous inspection of code quality. It performs static code analysis to detect bugs, code smells, security vulnerabilities, and code duplications. It supports various programming languages. SonarQube operates by scanning the source code, applying a set of predefined rules, and generating reports detailing issues found, their severity, and suggestions for improvement.
 
 3.) Writing a Terraform File:
 -- Sure, here's a simple example of a Terraform file to create an AWS S3 bucket:
@@ -38,7 +37,7 @@ Containers provide a lightweight, portable, and consistent environment for appli
 Docker allows developers to package their applications along with all dependencies into a container image, which can then be deployed and run on any system that supports Docker.
 
 6.) Artifact Storage Tools:
-Some commonly used artifact storage tools include:
+Answer -- > nSome commonly used artifact storage tools include:
 -- AWS S3
 -- Nexus Repository
 -- JFrog Artifactory
@@ -46,7 +45,7 @@ Some commonly used artifact storage tools include:
 -- Docker Hub
 
 7.) Creating a Cluster in AWS Console or Production:
-Creating a cluster in the AWS console is usually done for testing or development purposes. For production environments, it's recommended to use infrastructure as code tools
+-- Creating a cluster in the AWS console is usually done for testing or development purposes. For production environments, it's recommended to use infrastructure as code tools
 like Terraform or AWS CloudFormation to ensure repeatability, versioning, and automation of the deployment process.
 
 8.) Minikube:
