@@ -1,0 +1,60 @@
+🔹 Question 1: Importing Existing Resources into Terraform Configuration:
+Use the terraform import command to bring existing resources under Terraform management.
+Syntax: terraform import RESOURCE_TYPE.NAME RESOURCE_ID
+Example: terraform import aws_instance.my_instance i-1234567890abcdef0
+
+🔹 Question 2: Structuring Terraform Configurations for Code Reuse:
+Utilize Terraform modules to encapsulate reusable components.
+Organize modules by environment (e.g., dev, prod) to handle specific configurations.
+
+🔹 Question 3: Using Terraform Remote Backend for State Management:
+Use remote backends (e.g., S3, Azure Blob Storage) to store Terraform state remotely.
+Advantages include centralized state management, collaboration support, and improved security.
+
+🔹 Question 4: Implementing Highly Available Architecture with Auto Scaling Group:
+Define an Auto Scaling Group with multiple EC2 instances across multiple Availability Zones.
+Attach a load balancer (e.g., ELB, ALB) to distribute incoming traffic among instances.
+
+🔹 Question 5: Structuring Terraform Code for Multi-Cloud Management:
+Organize Terraform code into separate directories for AWS and Azure configurations.
+Use separate state files and variables to manage resources on each cloud provider.
+
+🔹 Question 6: Running Scripts after Provisioning with Terraform:
+Utilize provisioners (e.g., local-exec, remote-exec) to execute scripts after resource creation.
+Use provisioner blocks within resource definitions to specify post-provisioning actions.
+
+🔹 Question 7: Managing Sensitive Information in Terraform Configuration:
+Utilize Terraform sensitive data type for sensitive values.
+Store sensitive data in environment variables or use third-party secrets management tools.
+
+🔹 Question 8: Using Terraform Workspaces for Project Structuring:
+Use workspaces to manage multiple deployments of the same infrastructure.
+Organize projects with separate directories for each workspace and maintain separate state files.
+
+🔹 Question 9: Previewing Execution Plan in Terraform:
+Use the terraform plan command to preview changes before applying.
+Review the execution plan to ensure desired changes and identify potential issues.
+
+🔹 Question 10: Integrating Terraform with Git for GitOps:
+Use version control systems like Git to store Terraform configurations.
+Implement GitOps practices by triggering Terraform runs via CI/CD pipelines on Git commits.
+
+🔹 Question 11: Managing Infrastructure Secrets in Terraform:
+Utilize third-party secrets management providers like Vault.
+Store sensitive data in encrypted state files or external secret stores.
+
+🔹 Question 12: Implementing Consistent Environment Configuration:
+Use Terraform modules to define standardized infrastructure components.
+Maintain separate environments (e.g., dev, prod) with consistent configurations across environments.
+
+🔹 Question 13: Migrating Infrastructure from Terraform v0.11 to v0.12:
+Review Terraform v0.12 release notes and documentation for backward incompatible changes.
+Update Terraform configuration syntax and address any deprecated features.
+
+🔹 Question 14: Using terraform taint for Resource Management:
+Use terraform taint to mark resources for recreation during the next apply.
+Helps in cases where resource state is corrupted or requires re-creation due to external changes.
+
+🔹 Question 15: Structuring CI/CD Pipeline for Terraform with GitLab CI/CD:
+Define stages for Terraform plan, apply, and destroy in CI/CD pipeline.
+Utilize GitLab CI/CD features like triggers and environment variables for configuration.
