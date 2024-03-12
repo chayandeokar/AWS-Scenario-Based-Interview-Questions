@@ -1,0 +1,27 @@
+🔹 Question 1: Structuring Terraform Configurations for Code Reuse:
+Utilize Terraform modules to encapsulate reusable components.
+Organize modules by environment (e.g., dev, prod) to handle specific configurations.
+
+🔹 Question 2: Using Terraform Remote Backend for State Management:
+Use remote backends (e.g., S3, Azure Blob Storage) to store Terraform state remotely.
+Advantages include centralized state management, collaboration support, and improved security.
+
+🔹 Question 3: Running Scripts after Provisioning with Terraform:
+Utilize provisioners (e.g., local-exec, remote-exec) to execute scripts after resource creation.
+Use provisioner blocks within resource definitions to specify post-provisioning actions.
+
+🔹 Question 4: Managing Sensitive Information in Terraform Configuration:
+Utilize Terraform sensitive data type for sensitive values.
+Store sensitive data in environment variables or use third-party secrets management tools.
+
+🔹 Question 5: Using Terraform Workspaces for Project Structuring:
+Use workspaces to manage multiple deployments of the same infrastructure.
+Organize projects with separate directories for each workspace and maintain separate state files.
+
+🔹 Question 6: Implementing Consistent Environment Configuration:
+Use Terraform modules to define standardized infrastructure components.
+Maintain separate environments (e.g., dev, prod) with consistent configurations across environments.
+
+🔹 Question 7: Migrating Infrastructure from Terraform v0.11 to v0.12:
+Review Terraform v0.12 release notes and documentation for backward incompatible changes.
+Update Terraform configuration syntax and address any deprecated features.
