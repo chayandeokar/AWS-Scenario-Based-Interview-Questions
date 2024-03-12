@@ -1,0 +1,32 @@
+🔹 Question 1: Importing Existing Resources into Terraform Configuration:
+Use the terraform import command to bring existing resources under Terraform management.
+Syntax: terraform import RESOURCE_TYPE.NAME RESOURCE_ID
+Example: terraform import aws_instance.my_instance i-1234567890abcdef0
+
+🔹 Question 2: Implementing Highly Available Architecture with Auto Scaling Group:
+Define an Auto Scaling Group with multiple EC2 instances across multiple Availability Zones.
+Attach a load balancer (e.g., ELB, ALB) to distribute incoming traffic among instances.
+
+🔹 Question 3: Structuring Terraform Code for Multi-Cloud Management:
+Organize Terraform code into separate directories for AWS and Azure configurations.
+Use separate state files and variables to manage resources on each cloud provider.
+
+🔹 Question 4: Previewing Execution Plan in Terraform:
+Use the terraform plan command to preview changes before applying.
+Review the execution plan to ensure desired changes and identify potential issues.
+
+🔹 Question 5: Integrating Terraform with Git for GitOps:
+Use version control systems like Git to store Terraform configurations.
+Implement GitOps practices by triggering Terraform runs via CI/CD pipelines on Git commits.
+
+🔹 Question 6: Managing Infrastructure Secrets in Terraform:
+Utilize third-party secrets management providers like Vault.
+Store sensitive data in encrypted state files or external secret stores.
+
+🔹 Question 7: Using terraform taint for Resource Management:
+Use terraform taint to mark resources for recreation during the next apply.
+Helps in cases where resource state is corrupted or requires re-creation due to external changes.
+
+🔹 Question 8: Structuring CI/CD Pipeline for Terraform with GitLab CI/CD:
+Define stages for Terraform plan, apply, and destroy in CI/CD pipeline.
+Utilize GitLab CI/CD features like triggers and environment variables for configuration.
