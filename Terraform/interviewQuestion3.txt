@@ -1,0 +1,36 @@
+What is Terraform and how does it work?
+Answer :- Terraform is an open-source infrastructure as code (IaC) tool used for building, changing, and versioning infrastructure safely and efficiently. It allows you to define your infrastructure as code using a declarative configuration language and then Terraform takes care of provisioning and managing the underlying infrastructure resources. Terraform works by reading configuration files, creating an execution plan, and then executing that plan to provision the desired infrastructure.
+
+Describe the basic structure of a Terraform configuration file.
+Answer :-  Terraform configuration file, typically named main.tf, is written in HashiCorp Configuration Language (HCL). It consists of configuration blocks that define the infrastructure resources to be managed by Terraform. These configuration blocks include providers, resources, data sources, variables, outputs, etc.
+
+How does Terraform maintain state, and why is state important?
+Answer :- Terraform maintains a state file, which is a record of the infrastructure resources it manages and their current state. This state file is used to map real-world resources to the configuration and track any changes made to them. State is important because it allows Terraform to know the existing infrastructure state and determine what changes need to be applied to reach the desired state declared in the configuration.
+
+What is the purpose of a Terraform provider?
+Answer :-  A Terraform provider is responsible for understanding API interactions with infrastructure services (such as AWS, Azure, Google Cloud, etc.). It abstracts the underlying APIs and exposes resources that Terraform can manage. Providers translate Terraform configuration into API calls required to provision and manage resources.
+
+Explain the difference between a Terraform resource and a data source.
+Answer :-  Resource: A resource in Terraform represents a piece of infrastructure to be managed, such as an AWS EC2 instance, a Google Cloud SQL database, etc. Resources are created, updated, and deleted by Terraform.
+           Data source: A data source is used to fetch data or information from the provider that can be used in Terraform configurations. It doesn't create or manage infrastructure but provides read-only access to existing resources.
+
+How does Terraform handle dependencies between resources?
+Answer :- Terraform automatically handles dependencies between resources based on their configuration. It builds a dependency graph from the configuration and ensures resources are created, updated, or destroyed in the correct order to satisfy dependencies.
+
+What is Terraform's execution plan?
+Answer :- Terraform generates an execution plan before making any changes to the infrastructure. The execution plan shows what actions Terraform will take to reach the desired state declared in the configuration. It provides insights into what resources will be created, modified, or destroyed.
+
+How do you manage sensitive information (like API keys) in Terraform configurations?
+Answer :-  Sensitive information such as API keys should not be stored directly in Terraform configurations. Instead, you can use Terraform variables, environment variables, or external secret management tools like HashiCorp Vault to manage and securely store sensitive data.
+
+What is Terraform remote state and why would you use it?
+Answer :-  Terraform remote state is storing the state file in a remote location such as an object storage service (like AWS S3 or Azure Blob Storage) or a database. Using remote state allows collaboration among team members, ensures consistency, and provides better security by not storing state locally.
+
+Describe the significance of the Terraform lifecycle.
+Answer :-  The Terraform lifecycle consists of four main phases: initialize, plan, apply, and destroy. Each phase has its significance:
+
+Initialize: Initializes Terraform in the working directory and downloads necessary plugins and modules.
+Plan: Generates an execution plan describing what Terraform will do to reach the desired state.
+Apply: Executes the execution plan and makes the necessary changes to the infrastructure.
+Destroy: Destroys all resources managed by Terraform.
+These phases ensure a structured and controlled approach to managing infrastructure changes.
