@@ -1,4 +1,4 @@
-Most asked Grafana interview Questions for DevOps and Cloud Engineers
+Grafana interview Questions
 
 1. Your company is migrating to a new cloud platform. How would you use Grafana to monitor the migration?
 
