@@ -1,0 +1,25 @@
+Most asked Grafana interview Questions for DevOps and Cloud Engineers
+
+1. Your company is migrating to a new cloud platform. How would you use Grafana to monitor the migration?
+
+2. How would you explain Grafana dashboard data to non-technical people?
+
+3. The team is overwhelmed by Grafana alerts. How would you optimize the alerting system?
+
+4. The company's website is slow during peak hours. How would you use Grafana to diagnose the problem?
+
+5. What is the difference between a Graph panel and a Singlestat panel?
+
+6. Explain how Grafana integrates with Prometheus.
+
+7. How can Grafana be used to investigate a security breach?
+
+8. Explain how you would embed Grafana graphs or dashboards into an application.
+
+9. How do you handle dynamic scaling in cloud environments within Grafana?
+
+10. What is the process for setting up alerts in Grafana for newly deployed services?
+
+11. How do you ensure Grafana's high availability and disaster recovery in a new infrastructure setup
+
+12. How would you troubleshoot a sudden spike in latency using Grafana?
