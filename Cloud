@@ -1,0 +1,32 @@
+Can you describe your experience with setting up and maintaining AWS infrastructure?
+What strategies do you use to optimize AWS costs without compromising performance?
+How do you monitor and ensure the performance of AWS resources?
+Can you provide an example of a time when you had to troubleshoot and resolve an issue within AWS infrastructure?
+What AWS tools and services have you used for cost optimization and performance tuning?
+CI/CD Pipeline Implementation
+
+What is your experience with CI/CD pipeline implementation?
+Can you explain the benefits of CI/CD pipelines and how they impact software delivery?
+What tools have you used to build and manage CI/CD pipelines (e.g., Jenkins, GitLab CI, AWS CodePipeline)?
+Describe a challenging situation you encountered while setting up a CI/CD pipeline and how you overcame it.
+How do you ensure the security and reliability of automated deployments?
+System Performance Monitoring
+
+What tools and techniques do you use to monitor system performance?
+How do you identify and address performance bottlenecks in a system?
+Can you provide an example of how you improved system scalability to accommodate business growth?
+How do you ensure that monitoring solutions provide accurate and actionable insights?
+What proactive measures do you take to ensure ongoing system performance and reliability?
+Disaster Recovery and Backup Plans
+
+What is your approach to developing disaster recovery and backup plans?
+Can you explain the importance of disaster recovery and how it fits into overall business continuity planning?
+Describe a time when you had to implement a disaster recovery plan. What was the outcome?
+What tools and technologies have you used for backup and disaster recovery in AWS?
+How do you test and validate your disaster recovery and backup strategies to ensure they are effective?
+Behavioral and Situational Questions
+Describe a project where you had to balance multiple key responsibilities, such as AWS optimization, CI/CD implementation, and performance monitoring. How did you prioritize and manage your tasks?
+How do you stay current with the latest trends and best practices in cloud infrastructure management and DevOps?
+Can you provide an example of a time when you had to collaborate with other teams (e.g., development, operations) to achieve a common goal? What was your role, and what was the outcome?
+How do you handle situations where you need to convince stakeholders about the importance of investing in infrastructure optimization or disaster recovery plans?
+Give an example of a challenging technical problem you faced and how you resolved it. What was the impact of your solution on the organization?
